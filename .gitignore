@@ -1,0 +1,14 @@
+# Ignore the Ruby lockfile (GitHub Pages builds its own)
+Gemfile.lock
+
+# Ignore the folder where Jekyll builds the site
+_site/
+
+# Ignore metadata and cache folders
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ignore Bundler files
+.bundle/
+vendor/
